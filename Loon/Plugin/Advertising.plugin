@@ -500,7 +500,7 @@ http-response https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php r
 
 # > 哔哩哔哩 精简&去广告
 # Up主收藏排行榜
-http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js,enabled=false, tag=哔哩哔哩Up收藏排行榜
+http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mazeorz/airports/master/Loon/Script/bilibili_space.js,enabled=false, tag=哔哩哔哩Up收藏排行榜
 # 首页Tab
 http-response https://app.bilibili.com/x/resource/show/tab\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js,tag=哔哩哔哩首页Tab
 http-response https://app.bilibili.com/x/v2/feed/index\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js
