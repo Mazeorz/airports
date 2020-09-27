@@ -1,0 +1,80 @@
+!name=Tartarus iOS Tasks Module
+#!desc=iOS Tasks 模块配置
+#!system=ios
+
+[Script]
+# 东东
+cron "15 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+# 京东白条
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/JD_BaiTiao.js
+
+# 东东农场
+cron "5 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js
+
+# 东东萌宠
+cron "10 7-19/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js
+
+# 京东种豆得豆
+cron "1 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js
+
+# 宠汪汪(主要是日常任务,不过里面也有喂食和领取三餐狗粮)
+cron "15 */2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js
+
+# 宠汪汪喂食
+cron "12 */1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js
+
+# 宠汪汪偷好友积分与狗粮
+cron "0 0,6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js
+
+# 宠汪汪积分兑换奖品
+cron "1 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js
+
+# 京东天天加速
+cron "8 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js
+
+# 京东摇钱树
+cron "3 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js
+
+# 京小超
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js
+
+# 京小超领蓝币(兑换京豆)
+cron "20 5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js
+
+# 进店领豆
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js
+ 
+# 取关京东店铺商品
+cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js
+
+# 宠汪汪邀请助力与赛跑助力
+cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js
+
+# 京东手机狂欢城
+cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js
+
+# 百度贴吧
+# 打开App,点击'我的'
+cron "0 0,1,2 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
+
+# @chavyleung
+
+# > 百度签到
+#先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
+cron "10 0 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js
+
+#  人人视频
+#打开 APP, 访问下`个人中心`
+cron "50 2 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js
+
+# > 京东成长分 (By @barrymchen)
+#打开京东金融app，“信用”-》“小白成长分”
+cron "0 10 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczf.js
+
+# > 京东到家 (@barrymchen, @GideonSenku & @Macsuny)
+#APP登陆账号后，点击主页’签到‘,即可
+cron "30 10 8 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
+
+# 京喜
+cron "7 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
