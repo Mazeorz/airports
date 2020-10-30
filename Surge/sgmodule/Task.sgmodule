@@ -35,7 +35,7 @@
 # > 摇京豆 (By lxk0301)
 摇京豆 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js
 # > 京东星推官 (By lxk0301)
-京东星推官 = type=cron,cronexp="0 0 0,1 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js
+京东星推官 = type=cron,cronexp="0 0,1 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js
 # > 进店领豆 (By lxk0301)
 进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js
 # > 京东全民营业领金币 (By lxk0301)
